@@ -1,0 +1,307 @@
+.Facets {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+/* Facet Generator Styles */
+.FacetGenerator {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Common Styles for Facets */
+.CategoryFacet, 
+.RegularFacet,
+.NumericFacet,
+.NumericFacetSlider,
+.DateFacet {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.CategoryFacet:hover,
+.RegularFacet:hover,
+.NumericFacet:hover,
+.DateFacet:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  /* transform: translateY(-1px); */
+}
+
+/* Facet Titles */
+.CategoryFacetTitle,
+.RegularFacetTitle,
+.NumericFacetTitle,
+.DateFacetTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  position: relative;
+}
+
+.CategoryFacetTitle::after,
+.RegularFacetTitle::after,
+.NumericFacetTitle::after,
+.DateFacetTitle::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 2rem;
+  background: linear-gradient(to right, #0066cc, #0066cc80);
+  transition: width 0.3s ease;
+}
+
+.CategoryFacet:hover .CategoryFacetTitle::after,
+.RegularFacet:hover .RegularFacetTitle::after,
+.NumericFacet:hover .NumericFacetTitle::after,
+.DateFacet:hover .DateFacetTitle::after {
+  width: 3rem;
+}
+
+/* Values Lists */
+ul.RootFacetValues,
+ul.ActiveFacetValueTree,
+ul.FacetSearchResults,
+ul.FacetValues {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* Value Items */
+.FacetValue,
+.FacetSearchResult,
+.ActiveFacetValueChildren {
+  list-style: none;
+}
+
+.CategoryFacetValue,
+.RegularFacetValue {
+  padding: 0.5rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.CategoryFacetValue:hover,
+.RegularFacetValue:hover {
+  background-color: rgba(0, 102, 204, 0.04);
+  transform: translateX(2px);
+}
+
+/* Value Labels */
+.CategoryFacetValueLabel,
+.RegularFacetValueLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: #4a5568;
+  transition: color 0.2s ease;
+}
+
+.CategoryFacetValueLabel:hover,
+.RegularFacetValueLabel:hover {
+  color: #0066cc;
+}
+
+/* Count Badges */
+.CategoryFacetValueCount,
+.RegularFacetValueCount {
+  background: linear-gradient(to bottom, #f7fafc, #edf2f7);
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  color: #4a5568;
+  font-weight: 500;
+  min-width: 1.5rem;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Checkbox Styling */
+.RegularFacetCheckbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #cbd5e0;
+  border-radius: 4px;
+  margin-right: 0.75rem;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.RegularFacetCheckbox:checked {
+  background-color: #0066cc;
+  border-color: #0066cc;
+}
+
+.RegularFacetCheckbox:checked::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.RegularFacetCheckbox:hover {
+  border-color: #0066cc;
+  box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+}
+
+/* Search Input */
+/* input[type="text"] {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  margin-bottom: 0.75rem;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+} */
+
+.FacetSearch {
+  position: relative  ;
+  margin-bottom: 0.75rem;
+}
+
+.FacetSearch label {
+  display: block;
+  font-size: 0.875rem;
+  color: #4a5568;
+  font-weight: 500;
+  
+}
+
+.FacetSearch .inputWrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.FacetSearchClear,
+.FacetSearchInput {
+  padding: 0.4rem;
+    font-size: 0.8rem;
+}
+
+/* .FacetSearch input[type="text"] {
+  width: 100%;
+  padding: 0.6rem;
+  padding-right: 38px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  margin: 0;
+} */
+
+/* Loading and Results positioning */
+.FacetSearch .loading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #64748b;
+  font-size: 0.875rem;
+  padding: 0.25rem 0;
+}
+
+.FacetSearchResults {
+  margin-top: 0.25rem;
+  width: 100%;
+}
+
+.FacetSearch button {
+  position: absolute;
+  right: 0;
+  top: 19px;
+
+  /* background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 0;
+  cursor: pointer;
+  color: #94a3b8;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+/* .FacetSearch button:hover {
+  background: #e2e8f0;
+  color: #64748b;
+  border-color: #cbd5e0;
+}
+
+.FacetSearch button:hover {
+  color: #64748b;
+} */
+
+/* .FacetSearch button:focus {
+  outline: none;
+} */
+
+.FacetSearch input[type="text"]:focus {
+  outline: none;
+  border-color: #0066cc;
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.CategoryFacetValue,
+.RegularFacetValue {
+  animation: fadeIn 0.2s ease-out;
+}
+
+.FacetClear[disabled],
+.FacetClearSelected[disabled],
+.FacetShowMore[disabled],
+.FacetShowLess[disabled] {
+  display: none;
+}
+
+.FacetClearSelected {
+  display: none;
+}
+
+.FacetDisplayName {
+  font-weight: 500;
+}

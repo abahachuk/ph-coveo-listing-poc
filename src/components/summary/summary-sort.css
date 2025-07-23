@@ -1,0 +1,36 @@
+/* Summary Styles */
+.Summary {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.Summary strong {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Sort Styles */
+.Sort {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.Sort label {
+  white-space: nowrap;
+}
+
+
+/* Combined responsive styles for search controls */
+@media (max-width: 768px) {
+  .Sort, .Summary {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .SortSelect {
+    flex-grow: 1;
+    max-width: 200px;
+  }
+}

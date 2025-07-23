@@ -1,0 +1,75 @@
+/* Pagination Styles */
+.Pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 1rem;
+}
+
+.PaginationButtons {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.PaginationButton {
+  min-width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #333;
+  font-size: 0.875rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.PaginationButton:hover {
+  background-color: #f5f5f5;
+  border-color: #ccc;
+}
+
+.PaginationButton.active {
+  background-color: #0066cc;
+  border-color: #0066cc;
+  color: white;
+  font-weight: 600;
+}
+
+.PaginationButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 576px) {
+  .PaginationButton {
+    min-width: 32px;
+    height: 32px;
+    font-size: 0.75rem;
+  }
+}
+
+/* Products per page styles */
+.ProductsPerPage {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  font-size: 0.875rem;
+}
+
+.ProductsPerPageLabel {
+  margin-right: 0.5rem;
+  color: #666;
+}
+
+.ProductsPerPageSelect {
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  font-size: 0.875rem;
+}

@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build",
+    "startTime": "2025-07-21T14:56:16.495Z",
+    "endTime": "2025-07-21T14:56:16.680Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "headless-commerce-react-samples:cached:build",
+      "target": "cached:build",
+      "projectName": "headless-commerce-react-samples",
+      "hash": "13073767567576540972",
+      "startTime": "2025-07-21T14:56:16.552Z",
+      "endTime": "2025-07-21T14:56:16.679Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

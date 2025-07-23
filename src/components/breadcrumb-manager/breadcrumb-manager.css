@@ -1,0 +1,96 @@
+/* Breadcrumb Manager Styles */
+.BreadcrumbManager {
+  /* margin-bottom: 1.5rem; */
+}
+
+.ClearAllBreadcrumbs {
+  margin-bottom: 1rem;
+}
+
+.ClearAllBreadcrumbs button {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  color: #64748b;
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.ClearAllBreadcrumbs button:hover,
+.ClearAllBreadcrumbs button:active {
+  background: #f8fafc;
+  border-color: #0066cc;
+  color: #0066cc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.Breadcrumbs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.FacetBreadcrumbs {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.BreadcrumbValue {
+  display: inline-flex;
+  align-items: center;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #4a5568;
+  cursor: pointer;
+}
+
+.BreadcrumbValue:hover,
+.BreadcrumbValue:active {
+  background: #f8fafc;
+  border-color: #0066cc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  color: #0066cc;
+}
+
+.ClearAllBreadcrumbs button:focus,
+.BreadcrumbValue:focus {
+  outline: none;
+}
+
+.ClearAllBreadcrumbs button:focus-visible,
+.BreadcrumbValue:focus-visible {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+/* Separator styling */
+.BreadcrumbValue::after {
+  content: 'X';
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #e2e8f0, transparent);
+  margin: 1.5rem 0;
+  width: 100%;
+}

@@ -1,0 +1,128 @@
+/* Tracking ID select styles */
+.TrackingIdSelect {
+  margin-left: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Navigation select styles */
+.NavigationSelect {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.Layout {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.Header {
+  margin-bottom: 1rem;
+}
+
+.AppTitleWrapper {
+  display: flex;
+  align-items: center;
+
+}
+
+.AppTitle {
+ flex-grow: 1;
+}
+
+
+.Navigation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.NavigationWrapper {
+  display: flex; 
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.ContextSelector {
+  display:flex;
+  gap: 0.5rem;
+}
+
+.LangSelector {
+ width: 6rem; 
+}
+
+.TrackingIdSelector {
+  width: 10rem; 
+}
+
+.NavigationWrapper .HeaderRemoteButton {
+   background-color: #0066cc;
+   color: white;
+   text-decoration: none;
+   display: inline-flex;
+   align-items: center;
+}
+
+.HeaderSettingsModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.2);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeaderSettingsModalContent {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  min-width: 320px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.HeaderSettingsModalClose {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+}
+
+.HeaderSettingsModalTitle {
+  margin-bottom: 1.5rem;
+}
+
+.HeaderSettingsModalLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+}
+
+.HeaderSettingsModalCheckbox {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.HeaderSettingsButton {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  cursor: pointer;
+}

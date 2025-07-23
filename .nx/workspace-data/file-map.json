@@ -1,0 +1,367 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.3.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "headless-commerce-react-samples": [
+        {
+          "file": ".env.sample",
+          "hash": "14280399158900840507"
+        },
+        {
+          "file": ".eslintrc.json",
+          "hash": "17503022214874653848"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "1966970401474926417"
+        },
+        {
+          "file": "README.md",
+          "hash": "15390074812904357231"
+        },
+        {
+          "file": "e2e/home.spec.ts",
+          "hash": "12480026751105121326"
+        },
+        {
+          "file": "env.local",
+          "hash": "7693878498413402664"
+        },
+        {
+          "file": "index.html",
+          "hash": "3363521059914431633"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "13996261364492067104"
+        },
+        {
+          "file": "package.json",
+          "hash": "8696788415492015386",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@testing-library/jest-dom",
+            "npm:@testing-library/react",
+            "npm:@vitejs/plugin-react",
+            "npm:local-web-server",
+            "npm:nx",
+            "npm:vite",
+            "npm:vite-plugin-static-copy",
+            "npm:vitest",
+            "npm:@coveo/headless",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "playwright.config.ts",
+          "hash": "15716854341916399186"
+        },
+        {
+          "file": "project.json",
+          "hash": "1719005697384321000"
+        },
+        {
+          "file": "public/favicon.ico",
+          "hash": "2949791817221603359"
+        },
+        {
+          "file": "public/index.html",
+          "hash": "9351164342370509858"
+        },
+        {
+          "file": "public/logo192.png",
+          "hash": "7585273181698778288"
+        },
+        {
+          "file": "public/logo512.png",
+          "hash": "9339365414554387981"
+        },
+        {
+          "file": "public/manifest.json",
+          "hash": "5469407080304086365"
+        },
+        {
+          "file": "public/robots.txt",
+          "hash": "2790380794362165217"
+        },
+        {
+          "file": "src/App.test.tsx",
+          "hash": "108338383593608841"
+        },
+        {
+          "file": "src/App.tsx",
+          "hash": "5511464640683032090"
+        },
+        {
+          "file": "src/components/breadcrumb-manager/breadcrumb-manager.css",
+          "hash": "5980291007703996531"
+        },
+        {
+          "file": "src/components/breadcrumb-manager/breadcrumb-manager.tsx",
+          "hash": "10309488324625528490"
+        },
+        {
+          "file": "src/components/cart-tab/cart-tab.tsx",
+          "hash": "3442979462606679220"
+        },
+        {
+          "file": "src/components/cart/cart.tsx",
+          "hash": "16486071747313657213"
+        },
+        {
+          "file": "src/components/child-product/child-product.tsx",
+          "hash": "14739830145161671188"
+        },
+        {
+          "file": "src/components/context-selector/context-selector.tsx",
+          "hash": "7954439225924670608"
+        },
+        {
+          "file": "src/components/did-you-mean/did-you-mean.tsx",
+          "hash": "15055959000678202766"
+        },
+        {
+          "file": "src/components/facets/category-facet/category-facet.tsx",
+          "hash": "16660444908227813823"
+        },
+        {
+          "file": "src/components/facets/date-facet/date-facet.tsx",
+          "hash": "13609017759967707440"
+        },
+        {
+          "file": "src/components/facets/facet-generator/facet-generator.css",
+          "hash": "8947029913807763763"
+        },
+        {
+          "file": "src/components/facets/facet-generator/facet-generator.new.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/components/facets/facet-generator/facet-generator.tsx",
+          "hash": "6608134032930300194"
+        },
+        {
+          "file": "src/components/facets/numeric-facet-slider/numeric-facet-slider.css",
+          "hash": "7706045675126149795"
+        },
+        {
+          "file": "src/components/facets/numeric-facet-slider/numeric-facet-slider.tsx",
+          "hash": "2351706703361924551"
+        },
+        {
+          "file": "src/components/facets/numeric-facet/numeric-facet.tsx",
+          "hash": "1991310440547740064"
+        },
+        {
+          "file": "src/components/facets/regular-facet/regular-facet.tsx",
+          "hash": "4680097524995393190"
+        },
+        {
+          "file": "src/components/filter-suggestions/filter-suggestions-generator.tsx",
+          "hash": "1293551719504792949"
+        },
+        {
+          "file": "src/components/filter-suggestions/filter-suggestions.tsx",
+          "hash": "3859715825313769007"
+        },
+        {
+          "file": "src/components/instant-products/instant-products.tsx",
+          "hash": "3195693447257968990"
+        },
+        {
+          "file": "src/components/interactive-product/interactive-product.css",
+          "hash": "8440754023354529319"
+        },
+        {
+          "file": "src/components/interactive-product/interactive-product.tsx",
+          "hash": "16833347282489175084"
+        },
+        {
+          "file": "src/components/legacy-field-suggestions/legacy-field-suggestions-generator.tsx",
+          "hash": "751983561952741954"
+        },
+        {
+          "file": "src/components/legacy-field-suggestions/legacy-field-suggestions.tsx",
+          "hash": "662418026674417414"
+        },
+        {
+          "file": "src/components/pagination/pagination.css",
+          "hash": "12662490998460076031"
+        },
+        {
+          "file": "src/components/pagination/pagination.tsx",
+          "hash": "7811017921002236626"
+        },
+        {
+          "file": "src/components/product-list/product-list.css",
+          "hash": "1980311776149161154"
+        },
+        {
+          "file": "src/components/product-list/product-list.tsx",
+          "hash": "11010481889782328400"
+        },
+        {
+          "file": "src/components/products-per-page/products-per-page.tsx",
+          "hash": "8145213560867200333"
+        },
+        {
+          "file": "src/components/search-box/search-box.tsx",
+          "hash": "15205294272200517091"
+        },
+        {
+          "file": "src/components/show-more/show-more.tsx",
+          "hash": "1533864144194658750"
+        },
+        {
+          "file": "src/components/sort/sort.tsx",
+          "hash": "12858489338036283122"
+        },
+        {
+          "file": "src/components/standalone-search-box/standalone-search-box.tsx",
+          "hash": "7589574583450931526"
+        },
+        {
+          "file": "src/components/summary/summary-sort.css",
+          "hash": "7691598814970898523"
+        },
+        {
+          "file": "src/components/summary/summary.tsx",
+          "hash": "3438962463793689334"
+        },
+        {
+          "file": "src/components/use-cases/recommendations-interface/recommendations-interface.tsx",
+          "hash": "18433574213674736256"
+        },
+        {
+          "file": "src/components/use-cases/search-and-listing-interface/search-and-listing-interface.css",
+          "hash": "11457416549118019412"
+        },
+        {
+          "file": "src/components/use-cases/search-and-listing-interface/search-and-listing-interface.new.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/components/use-cases/search-and-listing-interface/search-and-listing-interface.tsx",
+          "hash": "16001477800733583736"
+        },
+        {
+          "file": "src/context/config-context.tsx",
+          "hash": "6394365394218597042"
+        },
+        {
+          "file": "src/context/engine.ts",
+          "hash": "15418023234761202164"
+        },
+        {
+          "file": "src/index.css",
+          "hash": "7541917999915551031"
+        },
+        {
+          "file": "src/index.tsx",
+          "hash": "17862902468965350573"
+        },
+        {
+          "file": "src/layout/layout.css",
+          "hash": "17188585325935019488"
+        },
+        {
+          "file": "src/layout/layout.tsx",
+          "hash": "3601486562052064544"
+        },
+        {
+          "file": "src/pages/cart-page.tsx",
+          "hash": "469832611321526451"
+        },
+        {
+          "file": "src/pages/home-page.tsx",
+          "hash": "15116531705132572045"
+        },
+        {
+          "file": "src/pages/product-description-page.tsx",
+          "hash": "10598969502956578134"
+        },
+        {
+          "file": "src/pages/product-listing-page copy.tsx",
+          "hash": "14654520125225170566"
+        },
+        {
+          "file": "src/pages/product-listing-page.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/pages/product-listing-page.tsx",
+          "hash": "5611529167722339333"
+        },
+        {
+          "file": "src/pages/product-listing-page.tsx.new",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/pages/search-page.tsx",
+          "hash": "8098902052111120094"
+        },
+        {
+          "file": "src/router/router.tsx",
+          "hash": "12537505002087158132"
+        },
+        {
+          "file": "src/setupTests.ts",
+          "hash": "16903885983588411080"
+        },
+        {
+          "file": "src/styles/buttons.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/styles/global.css",
+          "hash": "7688132797740774476"
+        },
+        {
+          "file": "src/types/site-config.ts",
+          "hash": "4584223510799295395"
+        },
+        {
+          "file": "src/utils/cart-utils.ts",
+          "hash": "17834969862007231940"
+        },
+        {
+          "file": "src/utils/category-mapping.ts",
+          "hash": "12718117520869497006"
+        },
+        {
+          "file": "src/utils/format-currency.ts",
+          "hash": "13806172535431040731"
+        },
+        {
+          "file": "src/utils/highlight-options.ts",
+          "hash": "16124821137502385378"
+        },
+        {
+          "file": "src/utils/path-utils.ts",
+          "hash": "13300623221675008874"
+        },
+        {
+          "file": "src/utils/pdp-utils.ts",
+          "hash": "18381631982724889271"
+        },
+        {
+          "file": "src/utils/url-conversion-helpers.ts",
+          "hash": "3676532721380071939"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "6804341912331410944"
+        },
+        {
+          "file": "vite.config.js",
+          "hash": "2682929739821978213"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}
