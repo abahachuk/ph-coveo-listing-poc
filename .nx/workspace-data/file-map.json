@@ -7,10 +7,6 @@
     "projectFileMap": {
       "headless-commerce-react-samples": [
         {
-          "file": ".env.sample",
-          "hash": "14280399158900840507"
-        },
-        {
           "file": ".eslintrc.json",
           "hash": "17503022214874653848"
         },
@@ -25,10 +21,6 @@
         {
           "file": "e2e/home.spec.ts",
           "hash": "12480026751105121326"
-        },
-        {
-          "file": "env.local",
-          "hash": "7693878498413402664"
         },
         {
           "file": "index.html",
@@ -62,7 +54,7 @@
         },
         {
           "file": "project.json",
-          "hash": "1719005697384321000"
+          "hash": "14947323495673702260"
         },
         {
           "file": "public/favicon.ico",

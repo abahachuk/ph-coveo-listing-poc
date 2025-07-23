@@ -79,7 +79,7 @@
                 "npm run build:client"
               ],
               "parallel": true,
-              "cwd": "packages/samples/headless-commerce-react"
+              "cwd": "."
             },
             "configurations": {},
             "parallelism": true
@@ -13117,5 +13117,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1753109776411
+  "computedAt": 1753262767713
 }

@@ -5,13 +5,17 @@
     "cached:build": {
       "executor": "nx:run-commands",
       "options": {
-        "commands": ["npm run build:client"],
+        "commands": [
+          "npm run build:client"
+        ],
         "parallel": true,
-        "cwd": "packages/samples/headless-commerce-react"
+        "cwd": "."
       }
     },
     "build": {
-      "dependsOn": ["cached:build"],
+      "dependsOn": [
+        "cached:build"
+      ],
       "executor": "nx:noop"
     }
   }
